@@ -58,7 +58,6 @@ public class Post {
   public void removeComment(Comment comment) {
     comments.remove(comment);
     comment.setPost(null);
-    //
   }
 
 
